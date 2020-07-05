@@ -5,7 +5,7 @@ $(function() {
       var burgerData = $(this).data("devour");
         console.log("Update",id);
       var data = {
-        devoured: burgerData
+        devoured: true
       };
   
       // Send the PUT request.
@@ -31,7 +31,9 @@ $(function() {
        
       };
       console.log(newBurger);
-  
+      if (newBurger.name != ""){
+
+      
       // Send the POST request.
       $.ajax("/api/burgers", {
         type: "POST",
@@ -43,8 +45,12 @@ $(function() {
           location.reload();
         }
       );
+    }
+    else{
+        alert("Burger name cannot be empty")
+    }
     });
-  
+
     $(".delete-burger").on("click", function(event) {
       var id = $(this).attr("id");
     console.log("delete",id)
