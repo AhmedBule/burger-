@@ -12,7 +12,7 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 ## Features: 
 
 
-![A sample of the Application]()
+![A sample of the Application](screenshot.png)
 
 ## Application Set-up: 
 Install the Express npm package: npm install express.
