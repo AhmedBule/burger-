@@ -16,7 +16,7 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 
 ## Click here to see the link: 
 
-![](https://mighty-meadow-74253.herokuapp.com/)
+[Burger App Link](https://mighty-meadow-74253.herokuapp.com/)
 
 ## Application Set-up: 
 Install the Express npm package: npm install express.
